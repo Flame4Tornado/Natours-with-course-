@@ -142,12 +142,15 @@ body {
 
 .u-margin-bottom-medium {
   margin-bottom: 4rem !important; }
-  @media (max-width: 900px) {
-    .u-margin-bottom-medium {
-      margin-bottom: 3rem !important; } }
-  @media (max-width: 600px) {
+  @media (max-width: 1200px) {
     .u-margin-bottom-medium {
       margin-bottom: 2rem !important; } }
+  @media (max-width: 900px) {
+    .u-margin-bottom-medium {
+      margin-bottom: 2rem !important; } }
+  @media (max-width: 600px) {
+    .u-margin-bottom-medium {
+      margin-bottom: 1rem !important; } }
 
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
