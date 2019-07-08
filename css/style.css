@@ -904,7 +904,7 @@ body {
     font-size: 1.4rem;
     margin-bottom: 4rem;
     -moz-column-count: 2;
-    -moz-column-count: 2;
+    -webkit-column-count: 2;
     -moz-column-gap: 4rem;
     column-rule: 1px solid #eee;
     -moz-hyphens: auto;
@@ -914,7 +914,9 @@ body {
     @media (max-width: 600px) {
       .popup__text {
         margin-bottom: 2rem;
-        font-size: 1.2rem; } }
+        font-size: 1.2rem;
+        -moz-column-count: 1;
+        -webkit-column-count: 1; } }
   .popup__close:link, .popup__close:visited {
     position: absolute;
     top: 2rem;
