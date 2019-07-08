@@ -911,12 +911,18 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 900px) {
+      .popup__text {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        hyphens: none; } }
     @media (max-width: 600px) {
       .popup__text {
         margin-bottom: 2rem;
-        font-size: 1.2rem;
+        font-size: 1rem;
         -moz-column-count: 1;
-        -webkit-column-count: 1; } }
+        -webkit-column-count: 1;
+        hyphens: none; } }
   .popup__close:link, .popup__close:visited {
     position: absolute;
     top: 2rem;
